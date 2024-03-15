@@ -37,7 +37,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class MainActivity extends AppCompatActivity {
     WebView web;
     private ProgressBar progress;
-    String weburl="https://erp.uttarauniversity.edu.bd/";
+    String weburl="https://www.youtube.com/";
      SwipeRefreshLayout swiprefreshlayout;
 
     FloatingActionButton printbtn;
