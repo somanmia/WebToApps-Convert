@@ -7,13 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+
+
+
     <include
         android:id="@+id/mheader"
         layout="@layout/toolarlyaout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-
     <ProgressBar
         android:layout_below="@+id/mheader"
         android:layout_width="match_parent"
@@ -28,7 +30,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/progressbwr"
         >
-        a
+
 
         <WebView
             android:layout_width="match_parent"
