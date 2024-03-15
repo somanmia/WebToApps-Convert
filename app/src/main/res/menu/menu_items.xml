@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu"
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@drawable/vr" >
+
+        <menu>
+              <item
+                android:id="@+id/Homeid"
+                android:title="Home"
+                android:icon="@drawable/homeicon"
+                  app:showAsAction="never"
+                />
+
+            <item
+                android:id="@+id/Developer"
+                android:title="Developer"
+                app:showAsAction="never"
+                android:icon="@drawable/profileicon"
+                />
+            <item
+                android:id="@+id/printclick"
+                android:title="Print"
+                android:icon="@drawable/baseline_print_24"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/Exit"
+                android:title="Exit"
+                app:showAsAction="never"
+                android:icon="@drawable/closeicon"
+                />
+        </menu>
+    </item>
+
+</menu>

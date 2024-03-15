@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="UU_ERP LOGIN"
+        android:background="#3F51B5"
+        android:minHeight="?attr/actionBarSize"
+
+        app:titleTextColor="#fff"
+     android:theme="?attr/actionBarTheme"
+        app:logo="@drawable/baseline_arrow_back_24"
+      app:titleMarginStart="8dp"
+        />
+</LinearLayout>
